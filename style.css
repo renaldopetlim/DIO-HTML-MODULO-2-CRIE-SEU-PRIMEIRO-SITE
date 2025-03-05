@@ -15,11 +15,18 @@
             .menu{
                 padding: 15px;
             }
-        .main{}
+        .main
             .header{
                 background-color: rgb(5, 108, 108, 0.6);
                 padding: 8px;
             }
             .content{
                 padding: 8px;
+                padding-top: 0;
+            }
+                .content h3{
+                    padding: 8px 0 10px 0;
+                }
+            .footer {
+                background-color: rgb(99, 56, 240);
             }
