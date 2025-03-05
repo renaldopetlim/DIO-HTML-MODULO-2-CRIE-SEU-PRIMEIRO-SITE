@@ -3,60 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clinica Vida e Saúde* - DIO - Seu Primeiro Site Completo com HTML</title>
+    <title>Clinica Amor e Saúde* - DIO - Seu Primeiro Site Completo com HTML</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="/assets/img/vida-e-saude.png" alt="logo" width="48px">
-    </header>
-
-    <article>
-        <h3>Sobre Nós:</h3>
-        <p>A Clínica Vida & Saúde é um centro de atendimento médico comprometido com o bem-estar e a qualidade de vida dos pacientes. Contamos com uma equipe de profissionais altamente qualificados e tecnologia de ponta para oferecer serviços em diversas especialidades médicas, exames laboratoriais e atendimento humanizado. Nosso objetivo é proporcionar um atendimento eficiente e acessível para toda a comunidade.</p>
-    </article>
-
-    <section>
-        <h3>Horário de Funcionamento:</h3>
-        <table border="2">
-            <thead>
-                <tr>
-                    <th>Serviços</th>
-                    <th>Segunda a Sexta</th>
-                    <th>Sábados</th>
-                    <th>Feriados</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Clinica Geral</td>
-                    <td>08h - 18h</td>
-                    <td>08h - 12h</td>
-                    <td>08h - 12h</td>
-                </tr>
-                <tr>
-                    <td>Psicologia</td>
-                    <td>08h - 12h</td>
-                    <td>08h - 12h</td>
-                    <td>08h - 12h</td>
-                </tr>
-                <tr>
-                    <td>Pediatria</td>
-                    <td>08h - 18h</td>
-                    <td>08h - 12h</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>Oftalmologia</td>
-                    <td>08h - 18h</td>
-                    <td>08h - 12h</td>
-                    <td>-</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+    <div>
+        <header>
+            <img src="/assets/img/vida-e-saude.png" alt="logo" width="48px">
+            <a href="#sobre">Sobre</a>
+            <a href="#time">Horários</a>
+        </header>
+    </div>
+    <div>
+        <article>
+            <h1 id="sobre">Sobre Nós:</h1>
+            <p>A Clínica Amor & Saúde é um centro de atendimento médico comprometido com o bem-estar e a qualidade de vida dos pacientes. Contamos com uma equipe de profissionais altamente qualificados e tecnologia de ponta para oferecer serviços em diversas especialidades médicas, exames laboratoriais e atendimento humanizado. Nosso objetivo é proporcionar um atendimento eficiente e acessível para toda a comunidade.</p>
+            <img src="/assets/img/clinica-01.jpg" alt="clinica" width="650px">
+        </article>
     
-    <footer>
+        <section id="time">
+            <h3>Horário de Funcionamento:</h3>
+            <table border="2" width="600px">
+                <thead>
+                    <tr>
+                        <th>Serviços</th>
+                        <th>Segunda a Sexta</th>
+                        <th>Sábados</th>
+                        <th>Feriados</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr align="center">
+                        <td>Clinica Geral</td>
+                        <td>08h - 18h</td>
+                        <td>08h - 12h</td>
+                        <td>08h - 12h</td>
+                    </tr>
+                    <tr align="center">
+                        <td>Psicologia</td>
+                        <td>08h - 12h</td>
+                        <td>08h - 12h</td>
+                        <td>08h - 12h</td>
+                    </tr>
+                    <tr align="center">
+                        <td>Pediatria</td>
+                        <td>08h - 18h</td>
+                        <td>08h - 12h</td>
+                        <td>-</td>
+                    </tr>
+                    <tr align="center">
+                        <td>Oftalmologia</td>
+                        <td>08h - 18h</td>
+                        <td>08h - 12h</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    
+        <footer>
+    
+        </footer>
+    </div>
 
-    </footer>
+
 </body>
 </html>

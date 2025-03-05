@@ -1,0 +1,9 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    body{
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
