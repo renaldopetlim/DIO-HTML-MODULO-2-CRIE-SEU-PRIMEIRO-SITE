@@ -8,23 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <header>
-            <img src="/assets/img/vida-e-saude.png" alt="logo" width="48px">
-            <a href="#sobre">Sobre</a>
-            <a href="#time">Horários</a>
-        </header>
+    <div id="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Horários</a></li>
+                <li><a href="#">Valores</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </div>
     </div>
-    <div>
-        <article>
-            <h1 id="sobre">Sobre Nós:</h1>
+
+
+    <div class="main">
+        <header class="header">
+            <img src="/assets/img/vida-e-saude.png" alt="logo" width="48px">
+        </header>
+
+        <article class="content">
+            <h1>Sobre Nós:</h1>
             <p>A Clínica Amor & Saúde é um centro de atendimento médico comprometido com o bem-estar e a qualidade de vida dos pacientes. Contamos com uma equipe de profissionais altamente qualificados e tecnologia de ponta para oferecer serviços em diversas especialidades médicas, exames laboratoriais e atendimento humanizado. Nosso objetivo é proporcionar um atendimento eficiente e acessível para toda a comunidade.</p>
             <img src="/assets/img/clinica-01.jpg" alt="clinica" width="650px">
         </article>
     
-        <section id="time">
+        <section class="content">
             <h3>Horário de Funcionamento:</h3>
-            <table border="2" width="600px">
+            <table border="1" width="600px">
                 <thead>
                     <tr>
                         <th>Serviços</th>
@@ -62,7 +71,7 @@
             </table>
         </section>
     
-        <footer>
+        <footer class="footer">
     
         </footer>
     </div>
